@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Eliminar Usuario</title>
+  <link href="borrar-style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Eliminar Usuario</h1>
+  <form id="form-eliminar">
+    <div>
+      <label for="id-delete">ID del Documento:</label>
+      <input type="text" id="id-delete" name="id" required pattern="\d+" title="Solo números" />
+    </div>
+    <button type="submit">Eliminar</button>
+  </form>
+
+  <div id="mensaje-eliminacion"></div>
+
+  <div>
+    <a href="../index.html">
+      <button type="button">Volver al Menú</button>
+    </a>
+  </div>
+
+  <script src="borrar-scrip.js"></script>
+</body>
+
+</html>

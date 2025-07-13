@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Actualizar Usuario</title>
+  <link href="actualizar-style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Actualizar Usuario</h1>
+  <form id="form-actualizar">
+    <div>
+      <label for="id-update">ID del Documento:</label>
+      <input type="text" id="id-update" name="id" required pattern="\d+" title="Solo números" />
+    </div>
+    <div>
+      <label for="nombre-update">Nuevo Nombre:</label>
+      <input type="text" id="nombre-update" name="nombre" required minlength="3" />
+    </div>
+    <div>
+      <label for="email-update">Nuevo Correo Electrónico:</label>
+      <input type="email" id="email-update" name="email" required />
+    </div>
+    <button type="submit">Actualizar</button>
+  </form>
+
+  <div id="mensaje-actualizacion"></div>
+
+  <div>
+    <a href="../index.html">
+      <button type="button">Volver al Menú</button>
+    </a>
+  </div>
+
+  <script src="actualizar-script.js"></script>
+</body>
+
+</html>
