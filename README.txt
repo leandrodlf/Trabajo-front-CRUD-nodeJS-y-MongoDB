@@ -23,7 +23,7 @@ Este proyecto implementa un CRUD de usuarios con formularios en frontend y una A
 
 ## Estructura del proyecto
 
-CRUD2/
+Trabajo-front-CRUD-nodeJS-y-MongoDB-main/
 │
 ├── backend/            → Código backend (API REST con Node.js + Express)
 │   ├── routes/         → Rutas para CRUD
@@ -61,7 +61,7 @@ CRUD2/
 
 	El servidor quedará disponible en `http://localhost:3000`
 
-3. Abre el archivo `index.html` desde la carpeta principal `Trabajo front CRUD nodeJS y MongoDB` en tu navegador.
+3. Abre el archivo `index.html` desde la carpeta principal `Trabajo-front-CRUD-nodeJS-y-MongoDB-main` en tu navegador.
 
 	- Puedes hacer doble clic o arrastrarlo al navegador.
 
