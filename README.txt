@@ -34,15 +34,20 @@ Trabajo-front-CRUD-nodeJS-y-MongoDB-main/
 ├── forms/              → Formularios para crear, buscar, actualizar y eliminar usuarios
 │   ├── insertar.html
 │   ├── insertar-scripts.js
+│   ├── insertar-styles.css
 │   ├── buscar.html
 │   ├── buscar-scripts.js
+│   ├── buscar-styles.css
 │   ├── actualizar.html
 │   ├── actualizar-scripts.js
+│   ├── actualizar-styles.css
 │   ├── borrar.html
 │   ├── borrar-scripts.js
+│   ├── borrar-styles.css
 │
 ├── index.html          → Página principal (menú)
-└── README.md           → Este archivo
+├── index-style.css	→ Estilos pagina principal
+└── README.txt          → Este archivo
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
