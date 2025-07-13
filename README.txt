@@ -54,7 +54,7 @@ Trabajo-front-CRUD-nodeJS-y-MongoDB-main/
 
     	 mongod
 
-2. Entra a la carpeta `backend`, abre otra terminal (click derecho abrir terminal desntro de la carpeta) y ejecuta el servidor con el siguiente comando:
+2. Entra a la carpeta `backend`, abre otra terminal (click derecho abrir terminal dentro de la carpeta) y ejecuta el servidor con el siguiente comando:
 
 	npm install (descarga y prepara las librerias del proyecto)
 	node server.js
